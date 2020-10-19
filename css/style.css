@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+/**                 Common Styling
+*****************************************************/
+.float-left {
+    float: left;
+}
+
+.d-block {
+    display: block;
+}
+
+.bg-red {
+    background-color: #f00;;
+}
+
+.bg-yellow {
+    background-color: #ff0;
+}
+
+.bg-green {
+    background-color: #0f0;
+}
+
+.container {
+    width: 784px;
+    height: 500px;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.poster_div {
+    background: url("../images/poster_image.png");
+}
+
+.game_div {
+    display: none;
+}
+
+.start_btn {
+    width: 124px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #00f;
+    font-size: 26px;
+    color: #fff;
+    border: 0;
+    position: relative;
+    top: 180px;
+    left: 330px;
+}
+
+.start_btn:active {
+    background-color: #f00;
+}
+
+.start_btn:focus {
+    outline: 0;
+}
+
+
+/**          Header Style & Common in Header
+*****************************************************/
+
+.header_div {
+    width: 774px;
+    height: 35px;
+    margin: 5px 2px 0 5px;
+}
+
+.life_div,
+.score_div,
+.timer_div {
+    width: 258px;
+    height: 35px;
+}
+
+.life_label,
+.score_label,
+.score_number,
+.level_label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+/**                 Life Style & Life Eggs
+*****************************************************/
+.life_img {
+    width: 30px;
+}
+
+
+/**                 Score styling
+****************************************************/
+.score_label {
+    margin-right: 5px;
+}
+.score_number {
+    padding-top: 1px;
+}
+
+/**                 Timer and Lavel Style
+****************************************************/
+.level_label {
+    width: 73px;
+    height: 31px;
+}
+
+.lavel_timer_div {
+    width: 150px;
+    height: 31px;
+}
+
+
+.lavel_number {
+    padding-left: 5px;
+}
+
+.front_div,
+.back_div {
+    width: 60px;
+    height: 7px;
+}
+
+.back_div {
+    background: #c0c0c0;
+    margin-top: 12px;
+}
+
+.front_div {
+    width: 55px;
+    background: #f00;
+    position: relative;
+    top: 12px;
+    left: -60px;
+}
+
+
+/**             Sitting Bird Style
+************************************************/
+.bird_container {
+    width: 774px;
+    margin: auto;
+    text-align: center;;
+}
+
+.bird {
+    width: 190px;
+    height: 150px;
+
+}
+
+/**             Running Egg Style
+***********************************************/
+.ruuning_egg {
+    width: 783px;
+    height: 250px;
+}
+
+.running_egg_img {
+    width: 45px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+/**             Nest Style
+**********************************************/
+.nest_div {
+    width: 783px;
+    height: 55px;
+}
+
+.nest_img {
+    width: 100px;
+    height: 55px;
+    position: relative;
+    left: 10px;
+}
+
+.nest_img2 {
+    width: 100px;
+    height: 40px;
+    z-index: 3;
+    position: relative;
+    left: 240px;
+}
+
+.final_result {
+    height: 400px;
+    position: relative;
+    top: -532px;
+    opacity: 0.8;
+    display: none;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 5;
+}
+
+.final_result h3 {
+    color: #0f0;
+}
+
+.final_result h1 {
+    color: #f00;
+}

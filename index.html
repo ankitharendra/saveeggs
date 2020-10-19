@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"
+    <head>
+        <title>Save Egg</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <!-- Starting Poster -->
+        <div class="poster_div container" id="main_div">
+            <button type="button" id="start_button" name="start_button" class="start_btn">START</button>
+        </div>
+
+        <!-- Game -->
+        <div class="game_div container" id="game_div">
+            <div class="header_div">
+                <div class="life_div float-left">
+                    <div class="life_label float-left">Life: </div>
+                    <div class="life_img_div">
+                        <img src="images/yellow_egg.png" alt="life image" id="life_1" class="life_img"/>
+                        <img src="images/yellow_egg.png" alt="life image" id="life_2" class="life_img"/>
+                        <img src="images/yellow_egg.png" alt="life image" id="life_3" class="life_img"/>
+                        <img src="images/yellow_egg.png" alt="life image" id="life_4" class="life_img"/>
+                        <img src="images/yellow_egg.png" alt="life image" id="life_5" class="life_img"/>
+                    </div>
+                </div>
+                <div class="score_div float-left">
+                    <div class="score_label float-left">Score:</div>
+                    <div class="score_number" id="score_value">0</div>
+                </div>
+                <div class="timer_div float-left">
+                    <div class="level_label float-left">
+                        <div class="float-left">Lavel</div>
+                        <div class="lavel_number float-left" id="lavel_number"> 1:</div>
+                    </div>
+                    <div class="lavel_timer_div float-left">
+                        <div class="back_div float-left"></div>
+                        <div class="front_div float-left" id="timer_div"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bird_container">
+                <img src="images/sitting_parrot.jpg" alt="bird sit on branch" class="bird"/>
+                <img src="images/sitting_parrot.jpg" alt="bird sit on branch" class="bird"/>
+                <img src="images/sitting_parrot.jpg" alt="bird sit on branch" class="bird"/>
+                <img src="images/sitting_parrot.jpg" alt="bird sit on branch" class="bird"/>
+            </div>
+            <div class="ruuning_egg">
+                <img src="images/brown_egg.png" alt="running egg" id="running_egg" class="running_egg_img"/>
+            </div>
+            <div class="nest_div">
+                <img src="images/nest.jpg" alt="nest of bird" id="nest" class="nest_img"/>
+                <img src="images/nest_half2.png" alt="nest of bird" id="nest2" class="nest_img2"/>
+            </div>
+        </div>
+        <div class="final_result container" id="final_result">
+            <h1>Game Over!</h1>
+            <h3>You played well...</h3>
+            <div class="final_Score" id="final_Score">Score: 100</div>
+        </div>
+        <script type="module" src="javascript/start_game.js"></script>
+    </body>
+</html>
